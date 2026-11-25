@@ -1,0 +1,25 @@
+window.CFG={
+app:{name:"KerjaKita"},
+nav:[["beranda","Beranda","MAIN MENU"],["cari","Cari Lowongan","MAIN MENU"],["jadwal","Jadwal Kuliah","MAIN MENU"],["lamaran","Lamaran Saya","MAIN MENU"],["tersimpan","Lowongan Tersimpan","MAIN MENU"],["safe","Safe Buddy","MY WORKSPACE"],["dompet","Dompet & Pendapatan","MY WORKSPACE"],["skill","Skill Passport","MY WORKSPACE"],["notif","Notifikasi","OTHERS"],["profil","Profil Saya","OTHERS"]],
+cats:["Cafe & Restaurant","Creative & Design","Education & Tutor","Event & Hospitality","Administration","Freelance & Remote"],
+chk:["Identitas perusahaan","Legalitas perusahaan","Alamat dan lokasi kerja","Kontak perekrut"],
+contacts:["Ibu","Sahabat (Dina)","Kakak"],
+rcat:["Penipuan lowongan","Permintaan uang","Pelecehan","Lokasi mencurigakan","Perilaku perusahaan tidak pantas"],
+ncat:["Lamaran","Wawancara","Rekomendasi","Deadline","Safety Reminder"],
+levels:["Beginner","Explorer","Skilled","Professional","Expert"],
+skills:[["Communication",0],["Time Management",1],["Teamwork",1],["Customer Service",2],["Graphic Design",3],["Digital Marketing",3],["Problem Solving",4]],
+jobs:[
+{id:1,t:"Barista",co:"Kopi Senja",cat:"Cafe & Restaurant",loc:"Tembalang, Semarang",d:1.2,pay:"Rp15.000/jam",est:900000,type:"Part-time",days:["Jum","Sab","Min"],v:[1,1,1,1],dl:"2026-12-02",desc:"Meracik kopi, melayani pelanggan, dan menjaga kebersihan area bar. Shift sore dan akhir pekan.",req:["Mahasiswa aktif","Komunikatif dan teliti","Bersedia training 2 hari"]},
+{id:2,t:"Admin Online Shop",co:"Lestari Fashion",cat:"Administration",loc:"Banyumanik, Semarang",d:3.5,pay:"Rp100.000/shift",est:1200000,type:"Part-time",days:["Jum","Sab"],v:[1,1,1,1],dl:"2026-12-10",desc:"Membalas chat pelanggan, input pesanan, dan rekap stok harian.",req:["Terbiasa memakai marketplace","Teliti","Punya laptop pribadi"]},
+{id:3,t:"Event Crew",co:"Semarang Event Pro",cat:"Event & Hospitality",loc:"Simpang Lima, Semarang",d:6,pay:"Rp125.000/shift",est:750000,type:"Part-time",days:["Sab","Min"],v:[1,1,1,0],dl:"2026-11-29",desc:"Membantu persiapan acara, registrasi tamu, dan pembongkaran venue.",req:["Fisik sehat","Disiplin waktu","Siap kerja akhir pekan"]},
+{id:4,t:"Social Media Admin",co:"Creative Studio",cat:"Creative & Design",loc:"Remote",d:0,pay:"Rp1.500.000/bulan",est:1500000,type:"Remote",days:["Sen","Sel","Rab","Kam","Jum","Sab","Min"],v:[1,1,1,1],dl:"2026-12-20",desc:"Menyusun kalender konten, membuat caption, dan memantau performa akun klien.",req:["Paham Instagram dan TikTok","Bisa Canva","Kreatif"]},
+{id:5,t:"Tutor Privat",co:"Edu Center",cat:"Education & Tutor",loc:"Pedurungan, Semarang",d:4.8,pay:"Rp50.000/sesi",est:800000,type:"Part-time",days:["Sab","Min"],v:[1,1,1,1],dl:"2026-12-15",desc:"Mengajar siswa SMP/SMA di rumah siswa, 2 jam per sesi.",req:["IPK minimal 3,0","Sabar dan komunikatif","Menguasai matematika atau IPA"]},
+{id:6,t:"Graphic Designer Freelance",co:"Studio Lokal",cat:"Freelance & Remote",loc:"Remote",d:0,pay:"Rp150.000/project",est:600000,type:"Freelance",days:["Sen","Sel","Rab","Kam","Jum","Sab","Min"],v:[1,0,0,1],dl:"2027-01-10",desc:"Membuat poster dan materi promosi sesuai brief klien.",req:["Portofolio desain","Menguasai Canva atau Figma","Tepat waktu"]},
+{id:7,t:"Crew Restaurant",co:"Warung Nusantara",cat:"Cafe & Restaurant",loc:"Tembalang, Semarang",d:2,pay:"Rp100.000/shift",est:800000,type:"Part-time",days:["Jum","Sab","Min"],v:[1,1,1,1],dl:"2026-12-05",desc:"Melayani tamu, mengantar pesanan, dan membantu kasir saat ramai.",req:["Ramah","Cekatan","Siap shift malam akhir pekan"]}],
+seed(){return{bm:[2],apps:[{id:1,job:1,st:2,date:"2026-11-20"},{id:2,job:4,st:1,date:"2026-11-22"}],
+cls:[{id:1,d:"Sen",s:8,e:10,n:"Statistik Bisnis"},{id:2,d:"Sel",s:10,e:12,n:"Digital Marketing"},{id:3,d:"Rab",s:13,e:15,n:"E-Commerce"},{id:4,d:"Kam",s:8,e:11,n:"Manajemen Strategi"}],
+nt:[{id:1,c:"Wawancara",t:"Undangan wawancara Kopi Senja, Kamis 15.00",r:0},{id:2,c:"Lamaran",t:"Creative Studio sedang meninjau lamaranmu",r:0},{id:3,c:"Rekomendasi",t:"Crew Restaurant cocok dengan jadwal kuliahmu",r:1}],
+pay:[{id:1,t:"Event Crew",a:250000,st:"Paid",m:"Sep"},{id:2,t:"Tutor Privat",a:400000,st:"Paid",m:"Okt"},{id:3,t:"Barista",a:225000,st:"Processing",m:"Nov"}],
+prof:{name:"Sarah Putri",email:"sarah@email.com",phone:"",uni:"",prodi:"",sem:"",loc:"Semarang",bio:"",skills:["Communication"]},
+rep:[],iv:[],done:2,view:"grid",ck:0,share:"",cv:""}}
+};

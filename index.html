@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KerjaKita - Kerja Part-Time Aman untuk Mahasiswa</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="config.js"></script>
+</head>
+<body>
+<div class="tp"><span class="brand" style="padding:0">KerjaKita</span><span class="sp"></span><a class="bt" href="app.html">Masuk ke Aplikasi</a></div>
+<section class="hero">
+<span class="bd ok">Platform part-time untuk mahasiswa</span>
+<h1>Temukan kerja part-time yang aman dan sesuai jadwal kuliah</h1>
+<p class="mu" style="font-size:16px">Lowongan terverifikasi, gaji transparan, dan jadwal yang tidak bentrok dengan kuliahmu.</p>
+<a class="bt" href="app.html">Coba Prototype</a>
+</section>
+<section class="lp"><div class="grid" id="feat"></div></section>
+<script>
+document.getElementById("feat").innerHTML=[["Job Safety Score","Empat pemeriksaan verifikasi di setiap lowongan."],["Smart Schedule Matching","Lowongan dicocokkan dengan jam kosong kuliahmu."],["Safe Buddy","Check-in, berbagi lokasi, SOS, dan laporan anonim (simulasi)."],["Dompet & Skill Passport","Pantau pendapatan dan kumpulkan keahlian."]].map(f=>`<div class="cd"><h3>${f[0]}</h3><p class="mu">${f[1]}</p></div>`).join("");
+</script>
+</body>
+</html>
